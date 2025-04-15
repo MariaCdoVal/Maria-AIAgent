@@ -87,4 +87,3 @@ export default async function handler(req, res) {
     res.status(500).json({ error: 'Erro ao se comunicar com a assistente Maria.' });
   }
 }
-
